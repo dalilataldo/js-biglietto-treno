@@ -12,5 +12,7 @@ if (age < 18) {
     price = (price * 0.6);
 }
 
+price = price.toFixed(2);
+
 console.log(price);
-document.getElementById('my_id').innerHTML = price;
+document.getElementById('my_id').innerHTML = `${price}€`;
